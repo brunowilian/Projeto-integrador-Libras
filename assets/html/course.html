@@ -1,0 +1,126 @@
+<script>
+    function showHide(id){
+        let conteudo = document.querySelector(id);
+        conteudo.classList.toggle('ativo'); 
+    }
+</script>
+<body>
+    <section class="container">
+        
+        <section class="modulos"  onclick="showHide('#modulo1')">
+            <div class="primary-module">
+                <h2>MÓDULO I</h2>
+                <h4>Curso com os primeiros passos para compreender a introdução <br>ao aprendizado da Língua Brasileira de Sinais - Libras.</h4>
+                <p class="saiba-mais">Saiba mais</p>
+                <div class="descricao-modulo" id="modulo1">
+                    <p>Duração do curso: 10h.</p>
+                    <p>Nivél de dificuldade: Básico.</p>
+            </div>
+            </div>
+            <div class="buttons">
+                <button class="button">Começar</button>
+                <button class="button">Quiz</button>
+             </div>
+        </section>
+        <section class="modulos"  onclick="showHide('#modulo2')">
+            <div class="primary-module">
+                <h2>MÓDULO II</h2>
+                <h4>Aprenda a produção e compreensão de sinais.</h4>
+                <p class="saiba-mais">Saiba mais</p>
+                <div class="descricao-modulo" id="modulo2">
+                    <p>Duração do curso: 10h.</p>
+                    <p>Nivél de dificuldade: Intermediário.</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="button">Começar</button>
+                <button class="button">Quiz</button>
+             </div>
+        </section>
+        <section class="modulos"  onclick="showHide('#modulo3')">
+            <div class="primary-module">
+                <h2>MÓDULO III</h2>
+                <h4>Conceito ...</h4>
+                <p class="saiba-mais">Saiba mais</p>
+                <div class="descricao-modulo" id="modulo3">
+                    <p>Duração do curso: 10h.</p>
+                    <p>Nivél de dificuldade: Dificil.</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="button">Começar</button>
+                <button class="button">Quiz</button>
+             </div>
+        </section>
+        
+        </section>
+        
+        <style>
+
+            body {
+                background-color:rgb(223, 223, 223)
+            }
+            section.container {
+               
+               width: 800px;
+               margin: auto;
+               margin-top: 60px;
+            }
+            
+.container {
+
+}
+            section.container div.descricao-modulo{
+                height: 0;
+                overflow: hidden;
+                transition: .2s;
+            }
+        
+            .modulos{
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                text-align: left;
+                width: 800px;
+                margin: 5px;
+                background-color: #FFF;
+                box-shadow: 0.15rem 0.15rem 0.3rem 0.2rem rgb(0 0 0 / 30%);
+                border-radius: 0.8rem;
+                padding: 0px 25px 0px 25px;
+
+            }
+
+            
+            .saiba-mais{
+                cursor: pointer;
+            }
+
+           section.container div.descricao-modulo.ativo{
+                height: 100px;
+                transition: .2s;
+            }
+
+            .buttons{
+                display: flex;
+                flex-direction: column;
+            }
+            
+        
+            .button{
+            border: none;
+            border-radius: 6px;
+            width: 120px;
+            height: 2.1rem;
+            margin: 10px;
+            padding: 5px 10px 5px 10px;
+            background: #19D3DA;
+            font-size: 1.2rem;
+            font-family: 'Merriweather', serif;
+            cursor: pointer;
+            box-shadow: 0.15rem 0.15rem 0.3rem 0.2rem rgb(0 0 0 / 20%);
+            }
+        </style>
+</body>
+</html>
