@@ -27,7 +27,6 @@
   }
 
 header{
-    background-color: var(--green-light);
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -97,6 +96,7 @@ main {
 
 .nav-header nav a {
     margin: 0 10px 0 10px;
+    color: #000;
 }
 
 
