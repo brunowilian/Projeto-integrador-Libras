@@ -26,6 +26,21 @@
     min-height: 100vh;
   }
 
+header{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    left: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -229,7 +244,7 @@ input::placeholder {
         
     }
     .curso-card-temp {
-        margin: 10px;
+        margin: 5px 10px;
         font-size: 12px;
         text-transform: uppercase;
         opacity: 0.5;
@@ -245,7 +260,18 @@ input::placeholder {
     flex-wrap: wrap;
     margin: 30px 0;
   }
+
+  .container-curso {
+    border-radius: 8px;
+    border: solid #19D3DA;
+  }
   
+  .titulo-curso{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+  }
   body .container .card {
     position: relative;
     min-width: 280px;
