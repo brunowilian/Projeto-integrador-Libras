@@ -111,13 +111,13 @@ atualizaPontos: function(){
     scoreDiv.textContent = `Sua pontuação é: ${this.Totalpontos}`;
 
 },
-
+//mostrar resposta correta da pergunta
 mostraresposta: function(correto){
     let resultDiv = document.getElementById('result');
-    let result = ''
+    let result = '';
     //formatar como a mensagem será exibida
-    if(correto == true){
-        result = `Resposta Correta!`;
+    if (correto){
+        result = 'Resposta Correta!';
     } 
     else {
         let pergunta = perguntas[this.Atualpos];  // obtendo a questão atual
