@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+<header>
+    <div class="nav-header">
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="course.html">Cursos</a>
+        <a href="profile.html">Meu Perfil</a>
+      </nav>
+    </div>
+  </header>
 <body>
-    <section class="geral">
-        <article class='centro' id='instrucoes'>
-            Leia a questão e clique na resposta correta
-        </article>
-        <section id="container">
-            <div><h1 id="titulo"></h1></div>
-            <ul>
-                <li class="alternativa"></li>
+    <main>
+        <section class="geral">
+            <article class='centro' id='instrucoes'>
+                Leia a questão e clique na resposta correta
+            </article>
+            <section id="container">
+                <div><h1 id="titulo"></h1></div>
+                <ul>
+                    <li class="alternativa"></li>
                 <li class="alternativa"></li>
                 <li class="alternativa"></li>
                 <li class="alternativa"></li>
@@ -25,7 +35,17 @@
         <h2 id="pontos"></h2>
         
     </section>
-    
+</main>
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
     <script type="text/javascript" src="/assets/js/quiz.js"></script>
 </body>
 </html>
