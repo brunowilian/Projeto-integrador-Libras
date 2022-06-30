@@ -19,7 +19,7 @@
   }
   
   body {
-   
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -268,7 +268,6 @@ input::placeholder {
   /* Gradient border animation */
 
   .container-curso {
-    margin: 0 15px 0 15px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -381,8 +380,7 @@ input::placeholder {
     transition: 0.5s;
     margin-bottom: 15px;
   }
-
- 
+  
   body .container .card .box .content p {
     font-size: 1rem;
     font-weight: 300;
@@ -416,6 +414,7 @@ input::placeholder {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin: auto;
 }
 #img-profile {
     width: 200px;
@@ -431,34 +430,21 @@ input::placeholder {
     margin: 5px;
     border-radius: 6px;
     width: 20rem;
+    height: 2.6rem;
 }
 .button-profile {
-    border-radius: 6px;
-    width: 15rem;
-    height: 2.1rem;
-    margin: 10px;
+    padding: 8px 20px;
     background: #19D3DA;
-    color: #000;
-    font-size: 1.2rem;
-    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+    transition: 0.5s;
+    width: 130px;
+    border: none;
 }
 
- /* Style playcurso*/ 
-
- .play-youtube{
-    margin: 15px 15px 0 15px;
-    border: 3px solid var(--green-light);
- }
-    iframe{
-        margin: 12px;
-        width: 1280px;
-        height: 720px;
-
-    }
-    .play {
-        display: flex;
-        flex-direction: row;
-    }
 
 
 /* MEDIA QUERIES */
