@@ -114,18 +114,18 @@ atualizaPontos: function(){
 //mostrar resposta correta da pergunta
 mostraresposta: function(correto){
     let resultDiv = document.getElementById('result');
-    let result = '';
     //formatar como a mensagem será exibida
-    if (correto){
-        result = 'Resposta Correta!';
+    if (correto == true){
+        resultDiv.textContent = "Acertou";
     } 
     else {
         let pergunta = perguntas[this.Atualpos];  // obtendo a questão atual
         let cindice = pergunta.correta;  // obtendo o indice da resposta correta da questão atual
         let ctexto = pergunta.alternativas[cindice];  // obter o texto da resposta correta da questão atual 
-        result = `Incorreto! Resposta correta: ${ctexto}`;  
+        resultDiv.textContent = `Incorreto! Resposta correta: ${ctexto}`;  
+         
     }
-    resultDiv.textContent = result;
+    
 }
 
 
