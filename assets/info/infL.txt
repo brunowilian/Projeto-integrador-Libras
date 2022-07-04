@@ -22,3 +22,11 @@ Módulo 03
 03- Reino animal
 04- adjetivos 
 05- Profissões
+
+CREATE TABLE IF NOT EXISTS `mydb`.`usuarios` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(45) NULL,
+  `email` VARCHAR(45) NULL,
+  `senha` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;

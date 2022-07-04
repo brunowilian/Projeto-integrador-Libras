@@ -1,3 +1,14 @@
+<?php
+
+include('backand\protect.php');
+
+if(!isset($_SESSION)) {
+    session_start();
+};
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -5,14 +16,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perfil</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <header>
     <div class="nav-header">
       <nav>
-        <a href="home.html">Home</a>
-        <a href="course.html">Cursos</a>
-        <a href="profile.html">Meu Perfil</a>
+        <a href="home.php">Home</a>
+        <a href="course.php">Cursos</a>
+        <a href="profile.php">Meu Perfil</a>
       </nav>
     </div>
   </header>
@@ -27,9 +38,10 @@
         <section class="formulario-profile">
           <div>
             <p>Nome Completo</p>
-            <input class="input-profile" type="text" />
+
+            <input class="input-profile" type="text" value="<?php echo $_SESSION['nome']; ?>" />
             <p>Email</p>
-            <input class="input-profile" type="text" />
+            <input class="input-profile" type="text"  />
             <p>Telefone</p>
             <input class="input-profile" type="text" />
           </div>

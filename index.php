@@ -1,3 +1,43 @@
+<?php
+include('backand\conexao.php');
+
+if(isset($_POST['email']) || isset($_POST['senha'])) {
+
+    if(strlen($_POST['email']) == 0) {
+        echo "Preencha seu e-mail";
+    } else if(strlen($_POST['senha']) == 0) {
+        echo "Preencha sua senha";
+    } else {
+
+        $email = $mysqli->real_escape_string($_POST['email']);
+        $senha = $mysqli->real_escape_string($_POST['senha']);
+
+        $sql_code = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
+        $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL: " . $mysqli->error);
+
+        $quantidade = $sql_query->num_rows;
+
+        if($quantidade == 1) {
+            
+            $usuario = $sql_query->fetch_assoc();
+
+            if(!isset($_SESSION)) {
+                session_start();
+            }
+
+            $_SESSION['id'] = $usuario['id'];
+            $_SESSION['nome'] = $usuario['nome'];
+
+            header("Location: ../home.php");
+
+        } else {
+            echo "Falha ao logar! E-mail ou senha incorretos";
+        }
+
+    }
+
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,10 +48,9 @@
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <script src="assets/js/svg-inject.min.js"></script>
 
-    <title>Login</title>
+    <title>Curso Libras</title>
 </head>
 <body>
-    
     <main>
         <div class="container-image">
             <section class="conteudo-primario">
@@ -36,12 +75,12 @@
                     <h1>Faça login na sua conta</h1>
                 </div>
     
-                <form>
+                <form action="" name="email" method="post">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" placeholder="LibrasCurso@gmail.com">
+                    <input type="email" name="email" id="email" placeholder="LibrasCurso@gmail.com">
                     
                     <label for="senha">Senha</label>
-                    <input type="password" id="senha" placeholder="*********">
+                    <input type="password" name="senha" id="senha" placeholder="*********">
                     
                     <div class="form-radio">
                         <div class="radio-content">
@@ -51,7 +90,7 @@
                         <a href="#">Esqueceu sua senha?</a>
                     </div>
                     
-                    <button  type="submit" class="button-entrar"><a class="a-entrar" href="/assets/html/home.html">Entrar</a></button>
+                    <button  type="submit" class="button-entrar">Entrar</button>
 
                     <a href="#" class="button-google-entrar">
                         <img src="assets/images/google.svg" class="google-icon" alt="Google icon" onload="SVGInject(this)">
@@ -60,7 +99,7 @@
                 </form>
                 <div class="cadastro">
                     <p>Não tem uma conta?</p>
-                    <a href="#">Cadastre-se</a>
+                    <a href="inscricao.php">Cadastre-se</a>
                 </div>
             </div>
         </div>
