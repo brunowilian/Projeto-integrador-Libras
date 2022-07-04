@@ -456,30 +456,11 @@ iframe {
     border: 2px solid;
 }
 .general-section{
-    border: 5px solid;
-    height: 500px;
-    width: 930px;
+
     padding-top: 12px;
     text-align: center;
     justify-content: center;
-    border-image: 
-    linear-gradient(
-     #e93916, 
-     #000,
-     var(--green-light)
-    ) 1 ;
-    animation: rotate
-    2.5s
-    ease-in
-    infinite;
-} @keyframes rotate {
-    50%{
-        border-image: linear-gradient(
-            var(--green-light),
-            #030303,
-            orange
-        )1;
-    }
+   
   }
 
 .play{ 
