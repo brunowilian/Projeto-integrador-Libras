@@ -23,6 +23,9 @@ Módulo 03
 04- adjetivos 
 05- Profissões
 
+
+CREATE SCHEMA login ;
+
 CREATE TABLE usuarios (
   id INT NOT NULL AUTO_INCREMENT,
   nome VARCHAR(45) NULL,

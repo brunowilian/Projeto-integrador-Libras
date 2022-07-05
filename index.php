@@ -50,6 +50,14 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 
     <title>Curso Libras</title>
 </head>
+<header>
+    <div class="nav-header">
+      <nav>
+        <a href="home.php">Home</a>
+        <a href="course.php">Cursos</a>
+      </nav>
+    </div>
+  </header>
 <body>
     <main>
         <div class="container-image">

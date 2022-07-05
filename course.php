@@ -1,8 +1,4 @@
-<?php
 
-include('backand\protect.php');
-
-?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -23,6 +19,8 @@ include('backand\protect.php');
     </div>
   </header>
   <body>
+    <main>
+
       <section class="container-curso">
         <div class="titulo-curso">
         <h1>
@@ -117,6 +115,7 @@ include('backand\protect.php');
         </div>
       </div>
     </section>
+    </main>
     <div vw class="enabled">
       <div vw-access-button class="active"></div>
       <div vw-plugin-wrapper>
@@ -127,6 +126,7 @@ include('backand\protect.php');
     <script>
       new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
+    
     </body>
     </html>
     

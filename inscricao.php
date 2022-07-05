@@ -1,14 +1,13 @@
 <?php
 include('backand\conexao.php');
 
-$nome=$_POST['nome'];
-$email=$_POST['email'];
-$senha=$_POST['senha'];
+
 
 if(isset($_POST['email']) || isset($_POST['senha']) || isset($_POST['nome'])) {
 
   $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
   $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+  $senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_SPECIAL_CHARS);
   
   $cadastrar=mysqli_query($mysqli, "INSERT INTO usuarios (nome, email, senha) VALUES ('$nome','$email','$senha')");
   if($cadastrar == true){
