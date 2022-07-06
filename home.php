@@ -47,21 +47,21 @@ if(!isset($_SESSION)) {
     </div>
 
     <div class="box-home  red">
-      <h2>Team Builder</h2>
-      <p>Scans our talent network to create the optimal team for your project</p>
+      <h2>Superaulas</h2>
+      <p>Aprenda de maneira simples com professores qualificados e preparados</p>
       <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
     </div>
 
     <div class="box-home  box-down blue">
-      <h2>Calculator</h2>
-      <p>Uses data from past projects to provide better delivery estimates</p>
+      <h2>Comunicação</h2>
+      <p>Quebre barreiras da comunicação, facilitando a integração social.</p>
       <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
     </div>
   </div>
   <div class="row2-container">
     <div class="box-home  orange">
-      <h2>Karma</h2>
-      <p>Regularly evaluates our talent to ensure quality</p>
+      <h2>Aprendizado</h2>
+      <p>Acesse ferramentas para acelerar seu aprendizado e desenvolva competências únicas</p>
       <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
     </div>
   </div>
