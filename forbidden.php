@@ -15,9 +15,13 @@
     <main>
         <div class="container-forbidden">
 
-            <div class="message">You are not authorized.
+            <div class="message">Você não está autorizado.
             </div>
-            <div class="message2">You tried to access a page you did not have prior authorization for.</div>
+            <div class="message2">Você tentou acessar uma página para a qual não tinha autorização prévia. Faça login para acessar essa página. 
+            <div style="display: flex;">
+                <a class="button-entrar" href="index.php">Entrar</a>
+            </div>   
+            </div>
             <div class="container-door">
                 <div class="neon">403</div>
                 <div class="door-frame">
@@ -40,4 +44,5 @@
         </div>
     </main>
 </body>
+
 </html>
