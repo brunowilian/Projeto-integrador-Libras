@@ -1,6 +1,7 @@
 <?php
 include('backand\conexao.php');
 
+
 if(isset($_POST['email']) || isset($_POST['senha'])) {
 
     if(strlen($_POST['email']) == 0) {
@@ -27,6 +28,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 
             $_SESSION['id'] = $usuario['id'];
             $_SESSION['nome'] = $usuario['nome'];
+            $_SESSION['email'] = $usuario['email'];
 
             header("Location: ../home.php");
 
@@ -59,6 +61,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     </div>
   </header>
 <body>
+
     <main>
         <div class="container-image">
             <section class="conteudo-primario">

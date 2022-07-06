@@ -1,11 +1,12 @@
 <?php
+include('backand\protect.php');
 
 if(!isset($_SESSION)) {
-    session_start();
+  session_start();
 }
 
 ?>
-
+<div>Ola  <?php echo $_SESSION['nome']; ?></div>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -22,8 +23,35 @@ if(!isset($_SESSION)) {
         <a href="home.php">Home</a>
         <a href="course.php">Cursos</a>
         <a href="profile.php">Meu Perfil</a>
-        <div>Ola  <?php echo $_SESSION['nome']; ?></div>
       </nav>
+      <div class="wrapper">
+        <ui class="mainMenu">
+            <li class="item" id="account">
+                <a href="#account" class="btn"><i class="fas fa-user-circle"></i>My Account</a>
+                <div class="subMenu">
+                    <a href="">item-1</a>
+                    <a href="">item-2</a>
+                    <a href="">item-3</a>
+                </div>
+            </li>
+            <li class="item" id="about">
+                <a href="#about" class="btn"><i class="fas fa-address-card"></i>About</a>
+                <div class="subMenu">
+                    <a href="">item-1</a>
+                    <a href="">item-2</a>
+                </div>
+            </li>
+            <li class="item" id="support">
+                <a href="#support" class="btn"><i class="fas fa-info"></i>Support</a>
+                <div class="subMenu">
+                    <a href="">item-1</a>
+                </div>
+            </li>
+            <li class="item">
+                <a href="#" class="btn"><i class="fas fa-sign-out-alt"></i>Log Out</a>
+            </li>
+        </ui>
+    </div>
       <p>
         <a href="./backand/logout.php">Sair</a>
     </p>
