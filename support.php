@@ -8,7 +8,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets\css\style.css">
 </head>
-
+<header>
+  <div class="nav-header">
+    <div>
+      <nav>
+        <a href="home.php">Home</a>
+        <a href="course.php">Cursos</a>
+      </nav>
+    </div>
+  </div>
+  <div class="profile-nav nav-header">
+    <nav>
+      <a href="profile.php">Meu Perfil</a>
+      <a href="./backand/logout.php">Sair</a>
+    </nav>
+  </div>
+</header>
 <body>
     <main>
         <div class="">

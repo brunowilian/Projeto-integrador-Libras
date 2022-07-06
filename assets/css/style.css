@@ -41,13 +41,25 @@ header{
     display: flex;
     justify-content: center;
     align-items: center ;
- 
     top:0;
     left: 0;
     width: 100%;
     height: 50px;
     border-bottom: 2px solid #000;
 }
+
+
+  .profile-nav{
+    display: flex;
+    margin-left: 70%;
+    
+
+  }
+
+  .profile-nav nav a {
+    margin-right: 20px;
+  }
+
 
 footer{
     position: fixed;
@@ -607,7 +619,6 @@ textarea {
 }
 
 .submit-btn {
-  float: right;
   padding: 7px 35px;
   border-radius: 60px;
   display: inline-block;

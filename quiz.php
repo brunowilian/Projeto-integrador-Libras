@@ -14,14 +14,21 @@ include('backand\protect.php');
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <header>
-    <div class="nav-header">
+  <div class="nav-header">
+    <div>
       <nav>
-        <a href="home.html">Home</a>
-        <a href="course.html">Cursos</a>
-        <a href="profile.html">Meu Perfil</a>
+        <a href="home.php">Home</a>
+        <a href="course.php">Cursos</a>
       </nav>
     </div>
-  </header>
+  </div>
+  <div class="profile-nav nav-header">
+    <nav>
+      <a href="profile.php">Meu Perfil</a>
+      <a href="./backand/logout.php">Sair</a>
+    </nav>
+  </div>
+</header>
 <body>
     <main>
         <section class="geral">
