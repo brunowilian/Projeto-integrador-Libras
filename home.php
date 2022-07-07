@@ -46,7 +46,7 @@ if (!isset($_SESSION)) {
       </div>
       <div class="row1-container">
         <div class="box-home box-down cyan">
-          <h2>Supervisor</h2>
+          <h2>Supervisorr</h2>
           <p>Monitors activity to identify project roadblocks</p>
           <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
         </div>
