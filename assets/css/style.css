@@ -586,14 +586,12 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
   max-width: 100%;
 }
 
-input,
+
 textarea {
   padding: 30px;
   border: 0;
   width: 100%;
   font-size: 1rem;
-  background-color: #2d2d2d;
-  color: white;
   border-radius: 4px;
 }
 
@@ -646,15 +644,6 @@ textarea {
   }
 }
 
-input[type=checkbox] + label {
-color: #ccc;
-font-style: italic;
-} 
-
-input[type=checkbox]:checked + label {
-color: #f00;
-font-style: normal;
-}
 
 .dados-suporte{
   display: flex;

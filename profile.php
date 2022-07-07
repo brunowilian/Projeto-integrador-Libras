@@ -39,11 +39,10 @@ if (!isset($_SESSION)) {
 <body>
   <main>
     <section class="conteudo-profile">
-      <section>
+      <div>
         <h1>Perfil do Usuário</h1>
         <br />
-        <img id="img-profile" src="./img/amanda.png" alt="Sua Foto" /><br />
-      </section>
+      </div>
       <section class="formulario-profile">
         <div>
           <p>Nome Completo</p>
@@ -53,15 +52,11 @@ if (!isset($_SESSION)) {
           <input class="input-profile" type="text" value="<?php echo $_SESSION['nome']; ?>" />
           <p>Email</p>
           <input class="input-profile" type="text" value="<?php echo $_SESSION['email']; ?>" />
-          <p>Telefone</p>
-          <input class="input-profile" type="text" />
         </div>
         <div>
           <p>Trocar Senha</p>
           <input class="input-profile" type="text" />
           <p>Data de nascimento</p>
-          <input class="input-profile" type="text" />
-          <p>Celular</p>
           <input class="input-profile" type="text" />
         </div>
       </section>
