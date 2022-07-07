@@ -66,7 +66,7 @@ if (!isset($_SESSION)) {
       <div class="row2-container">
         <div class="box-home  orange">
           <h2>Karma</h2>
-          <p>Regularly evaluates our talent to ensure quality.</p>
+          <p>Regularly evaluates our talent to ensure quality..</p>
           <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
         </div>
       </div>
