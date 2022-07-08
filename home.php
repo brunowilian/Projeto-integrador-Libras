@@ -14,7 +14,7 @@ if (!isset($_SESSION)) {
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Curso Livras</title>
+  <title>Curso Libras</title>
   <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <header>
@@ -46,27 +46,27 @@ if (!isset($_SESSION)) {
       </div>
       <div class="row1-container">
         <div class="box-home box-down cyan">
-          <h2>Supervisorr</h2>
-          <p>Monitors activity to identify project roadblocks</p>
+          <h2>Comunicação</h2>
+          <p>Quebre barreiras da comunicação, afim de facilitar a integração social entre os surdos com ouvintes.</p>
           <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
         </div>
 
         <div class="box-home  red">
-          <h2>Team Builder</h2>
-          <p>Scans our talent network to create the optimal team for your project</p>
+          <h2>Aprendizado</h2>
+          <p>Aprenda de forma simples com professores qualificados e preparados </p>
           <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
         </div>
 
         <div class="box-home  box-down blue">
-          <h2>Calculator</h2>
-          <p>Uses data from past projects to provide better delivery estimates</p>
+          <h2>Flexibilidade</h2>
+          <p>Ajuste o aprendizado à sua rotina. Estude quando e onde quiser, do computador ao celular</p>
           <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
         </div>
       </div>
       <div class="row2-container">
         <div class="box-home  orange">
-          <h2>Karma</h2>
-          <p>Regularly evaluates our talent to ensure quality..</p>
+          <h2>Facilidade</h2>
+          <p>Curso fácil de aprender, com vídeos rápidos e atendimento dedicado à felicidade do aluno</p>
           <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
         </div>
       </div>
