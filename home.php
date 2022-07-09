@@ -38,35 +38,33 @@ if (!isset($_SESSION)) {
   <main>
     <div class="container-novidade">
       <div class="header">
-        <h1>Lançamentos</h1>
-        <h1>Powered by Technology</h1>
+        <h2>Aperfeiçoamentos da plataforma que estão em desenvolvimento:</h2>
 
-        <p>Our Artificial Intelligence powered tools use millions of project data points
-          to ensure that your project is successful</p>
       </div>
       <div class="row1-container">
         <div class="box-home box-down cyan">
-          <h2>Comunicação</h2>
-          <p>Quebre barreiras da comunicação, afim de facilitar a integração social entre os surdos com ouvintes.</p>
+          <h2>Conquistas</h2>
+          <p>Incentivo e apoio aos usuários, por meio de medalhas de bronze, prata e ouro decorrente seu desenvolvimento
+          </p>
           <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
         </div>
 
         <div class="box-home  red">
-          <h2>Aprendizado</h2>
-          <p>Aprenda de forma simples com professores qualificados e preparados </p>
+          <h2>Certificado</h2>
+          <p>Certificação de que o aluno passou por todas as etapas do curso </p>
           <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
         </div>
 
         <div class="box-home  box-down blue">
-          <h2>Flexibilidade</h2>
-          <p>Ajuste o aprendizado à sua rotina. Estude quando e onde quiser, do computador ao celular</p>
+          <h2> Comentários</h2>
+          <p>Batepapo online afim dos usuários trocarem conhecimentos</p>
           <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
         </div>
       </div>
       <div class="row2-container">
         <div class="box-home  orange">
-          <h2>Facilidade</h2>
-          <p>Curso fácil de aprender, com vídeos rápidos e atendimento dedicado à felicidade do aluno</p>
+          <h2>Quiz</h2>
+          <p>Aperfeiçoamento do quiz</p>
           <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
         </div>
       </div>
