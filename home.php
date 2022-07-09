@@ -38,35 +38,33 @@ if (!isset($_SESSION)) {
   <main>
     <div class="container-novidade">
       <div class="header">
-        <h1>Lançamentos</h1>
-        <h1>Powered by Technology</h1>
+        <h2>Aperfeiçoamentos da plataforma que estão em desenvolvimento:</h2>
 
-        <p>Our Artificial Intelligence powered tools use millions of project data points
-          to ensure that your project is successful</p>
       </div>
       <div class="row1-container">
         <div class="box-home box-down cyan">
-          <h2>Comunicação</h2>
-          <p>Quebre barreiras da comunicação, afim de facilitar a integração social entre os surdos com ouvintes.</p>
+          <h2>Conquistas</h2>
+          <p>Incentivo e apoio aos usuários, por meio de medalhas de bronze, prata e ouro decorrente seu desenvolvimento
+          </p>
           <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
         </div>
 
         <div class="box-home  red">
-          <h2>Aprendizado</h2>
-          <p>Aprenda de forma simples com professores qualificados e preparados </p>
+          <h2>Certificado</h2>
+          <p>Certificação de que o aluno passou por todas as etapas do curso </p>
           <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
         </div>
 
         <div class="box-home  box-down blue">
-          <h2>Flexibilidade</h2>
-          <p>Ajuste o aprendizado à sua rotina. Estude quando e onde quiser, do computador ao celular</p>
+          <h2> Comentários</h2>
+          <p>Batepapo online afim dos usuários trocarem conhecimentos</p>
           <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
         </div>
       </div>
       <div class="row2-container">
         <div class="box-home  orange">
-          <h2>Facilidade</h2>
-          <p>Curso fácil de aprender, com vídeos rápidos e atendimento dedicado à felicidade do aluno</p>
+          <h2>Quiz</h2>
+          <p>Aperfeiçoamento do quiz</p>
           <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
         </div>
       </div>
@@ -79,11 +77,83 @@ if (!isset($_SESSION)) {
       <div class="vw-plugin-top-wrapper"></div>
     </div>
   </div>
+  <section class="container-fac">
+    <h1 class="titulo-fac">Perguntas Frequentes</h1>
+            <section class="modulos"  onclick="showHide('#modulo1')">
+                <div class="primary-module">
+                    <p class="titulo-pergunta">É preciso fazer cadastro no site para assistir os vídeos gratuitos?</p>
+                    <div class="descricao-modulo" id="modulo1">
+                        <p class="titulo-resposta">Sim, somente os alunos cadastrados no portal conseguem ter acesso a plataforma de curso.</p>
+                </div>
+                </div>
+                <img class="img-fac" src="assets\images\seta.png" alt="seta">
+            </section>
+            <section class="modulos"  onclick="showHide('#modulo2')">
+                <div class="primary-module">
+                    <p class="titulo-pergunta">Qual o preço para conseguir ter acesso aos vídeos?</p>
+                    <div class="descricao-modulo" id="modulo2">
+                        <p class="titulo-resposta">Todos os cursos da plataforma são gratuitos.</p>
+                    </div>
+                </div>
+                <img class="img-fac" src="assets\images\seta.png" alt="seta">
+            </section>
+            <section class="modulos"  onclick="showHide('#modulo3')">
+                <div class="primary-module">
+                    <p class="titulo-pergunta">Quem pode fazer o curso?</p>
+                    <div class="descricao-modulo" id="modulo3">
+                        <p class="titulo-resposta">Qualquer pessoa que tenha interesse em aprender a Língua Brasileiras de Sinais (Libras)</p>
+
+                    </div>
+                </div>
+                <img class="img-fac" src="assets\images\seta.png" alt="seta">
+            </section>
+
+            <section class="modulos"  onclick="showHide('#modulo4')">
+                <div class="primary-module">
+                    <p class="titulo-pergunta">..</p>
+                    <div class="descricao-modulo" id="modulo4">
+                        <p class="titulo-resposta"></p>
+
+                    </div>
+                </div>
+                <img class="img-fac" src="assets\images\seta.png" alt="seta">
+ 
+            </section>
+
+            <section class="modulos"  onclick="showHide('#modulo5')">
+                <div class="primary-module">
+                    <p class="titulo-pergunta">..</p>
+                    <div class="descricao-modulo" id="modulo5">
+                        <p class="titulo-resposta"></p>
+
+                    </div>
+                </div>
+                <img class="img-fac" src="assets\images\seta.png" alt="seta">
+            </section>
+    
+            </section>
+
+            <script>
+        function showHide(id){
+            let conteudo = document.querySelector(id);
+            conteudo.classList.toggle('ativo'); 
+        }
+    </script>
+
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
 
 </body>
+
+<style>
+      p{
+        font-size: 0.889rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 1.33rem;
+    }
+            </style>
 
 </html>
