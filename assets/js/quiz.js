@@ -5,49 +5,49 @@ let perguntas = [
     correta: 2
 },
 {
-    titulo: 'Pergunta2',
-    alternativas: ['Correta', 'Errada', 'Errada', 'Errada'],
-    correta: 0
-},
-{
-    titulo: 'Pergunta3',
-    alternativas: ['Errada', 'Errada', 'Errada', 'Correta'],
-    correta: 3
-},
-{
-    titulo: 'Pergunta4',
-    alternativas: ['Errada', 'Correta', 'Errada', 'Errada'],
-    correta: 1
-},
-{
-    titulo: 'Pergunta5',
-    alternativas: ['Correta', 'Errada', 'Errada', 'Errada'],
-    correta: 0
-},
-{
-    titulo: 'Pergunta6',
-    alternativas: ['Errada', 'Errada', 'Errada', 'Correta'],
-    correta: 3
-},
-{
-    titulo: 'Pergunta7',
-    alternativas: ['Errada', 'Correta', 'Errada', 'Errada'],
-    correta: 1
-},
-{
-    titulo: 'Pergunta8',
-    alternativas: ['Errada', 'Errada', 'Correta', 'Errada'],
+    titulo: 'Quando a Libras foi oficializada no Brasil?',
+    alternativas: ['1998 pela Lei nº 10.436.', '1974 pela Lei nº 10.436.', '2002 pela Lei nº 10.436.', '2001 pela Lei nº 10.436.'],
     correta: 2
 },
 {
-    titulo: 'Pergunta9',
-    alternativas: ['Correta', 'Errada', 'Errada', 'Errada'],
+    titulo: 'Onde a Libras teve origem na língua de sinais ?',
+    alternativas: ['França (LSF) ', 'Estados unidos (ASL)', 'Portugal (LGP)', 'Britânica (BSL)'],
     correta: 0
 },
 {
-    titulo: 'Pergunta10',
-    alternativas: ['Errada', 'Errada', 'Errada', 'Correta'],
+    titulo: 'Em que ano foi fundada a primeira escola de surdos no Brasil ?',
+    alternativas: ['1857', '1888', '1995', '2002'],
+    correta: 1
+},
+{
+    titulo: 'Qual o significado de “INES” na comunidade surda?',
+    alternativas: ['Instituto Nacional de cegos e Surdos', 'Instituto Imperial de Deficientes Auditivos', 'Instituto Educacional para Deficientes Auditivos', 'Instituto Nacional De Educação de Surdos'],
     correta: 3
+},
+{
+    titulo: 'Como é chamado o Filho ouvinte de Pais surdos?',
+    alternativas: ['Intérprete', 'Coda', 'Bilíngue', 'Libreiro'],
+    correta: 1
+},
+{
+    titulo: 'As pessoas que têm perda profunda, e não escutam nada, são consideradas?',
+    alternativas: ['surdo mudo', 'mudo', 'Deficiente auditivo ', ' surdos'],
+    correta: 3
+},
+{
+    titulo: 'Assinale a alternativa que mostra a diferença entre a língua de sinais e a língua oral',
+    alternativas: ['As línguas de sinais apresentam modalidade visual-espacial, enquanto as línguas orais são orais-auditivas', 'As línguas orais são aprendidas de forma visual, as de sinais são apreendidas de forma gestual', 'As línguas de sinais são línguas universais, enquanto as orais têm variação linguística local', 'A falta de sintaxe, semântica e morfologia são características das línguas de sinais, as línguas orais têm gramática própria'],
+    correta: 0
+},
+{
+    titulo: 'Assinale a alternativa correta ',
+    alternativas: ['A libras é uma língua artificial ', 'A língua de sinais é universal', 'Somente os ouvintes usam datilologia', 'A libras é uma versão da língua portuguesa'],
+    correta: 3
+},
+{
+    titulo: 'todo surdo é mudo',
+    alternativas: ['Depende da profundidade da perda auditiva', 'Sim, por isso fazem uso da língua de sinais', 'Não, existem surdos com cordas vocais perfeitas', ' Sim, por isso o termo surdo-mudo'],
+    correta: 2
 }
 ]
 
@@ -112,6 +112,7 @@ atualizaPontos: function(){
 
 },
 //mostrar resposta correta da pergunta
+
 mostraresposta: function(correto){
     let resultDiv = document.getElementById('result');
     //formatar como a mensagem será exibida
@@ -127,6 +128,7 @@ mostraresposta: function(correto){
     }
     
 }
+
 
 
 }
