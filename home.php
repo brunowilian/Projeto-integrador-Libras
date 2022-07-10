@@ -77,68 +77,7 @@ if (!isset($_SESSION)) {
       <div class="vw-plugin-top-wrapper"></div>
     </div>
   </div>
-  <section class="container-fac">
-    <h1 class="titulo-fac">Perguntas Frequentes</h1>
-            <section class="modulos"  onclick="showHide('#modulo1')">
-                <div class="primary-module">
-                    <p class="titulo-pergunta">É preciso fazer cadastro no site para assistir os vídeos gratuitos?</p>
-                    <div class="descricao-modulo" id="modulo1">
-                        <p class="titulo-resposta">Sim, somente os alunos cadastrados no portal conseguem ter acesso a plataforma de curso.</p>
-                </div>
-                </div>
-                <img class="img-fac" src="assets\images\seta.png" alt="seta">
-            </section>
-            <section class="modulos"  onclick="showHide('#modulo2')">
-                <div class="primary-module">
-                    <p class="titulo-pergunta">Qual o preço para conseguir ter acesso aos vídeos?</p>
-                    <div class="descricao-modulo" id="modulo2">
-                        <p class="titulo-resposta">Todos os cursos da plataforma são gratuitos.</p>
-                    </div>
-                </div>
-                <img class="img-fac" src="assets\images\seta.png" alt="seta">
-            </section>
-            <section class="modulos"  onclick="showHide('#modulo3')">
-                <div class="primary-module">
-                    <p class="titulo-pergunta">Quem pode fazer o curso?</p>
-                    <div class="descricao-modulo" id="modulo3">
-                        <p class="titulo-resposta">Qualquer pessoa que tenha interesse em aprender a Língua Brasileiras de Sinais (Libras)</p>
-
-                    </div>
-                </div>
-                <img class="img-fac" src="assets\images\seta.png" alt="seta">
-            </section>
-
-            <section class="modulos"  onclick="showHide('#modulo4')">
-                <div class="primary-module">
-                    <p class="titulo-pergunta">..</p>
-                    <div class="descricao-modulo" id="modulo4">
-                        <p class="titulo-resposta"></p>
-
-                    </div>
-                </div>
-                <img class="img-fac" src="assets\images\seta.png" alt="seta">
- 
-            </section>
-
-            <section class="modulos"  onclick="showHide('#modulo5')">
-                <div class="primary-module">
-                    <p class="titulo-pergunta">..</p>
-                    <div class="descricao-modulo" id="modulo5">
-                        <p class="titulo-resposta"></p>
-
-                    </div>
-                </div>
-                <img class="img-fac" src="assets\images\seta.png" alt="seta">
-            </section>
-    
-            </section>
-
-            <script>
-        function showHide(id){
-            let conteudo = document.querySelector(id);
-            conteudo.classList.toggle('ativo'); 
-        }
-    </script>
+  
 
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script>
@@ -146,14 +85,5 @@ if (!isset($_SESSION)) {
   </script>
 
 </body>
-
-<style>
-      p{
-        font-size: 0.889rem;
-    font-weight: 400;
-    line-height: 150%;
-    margin-bottom: 1.33rem;
-    }
-            </style>
 
 </html>

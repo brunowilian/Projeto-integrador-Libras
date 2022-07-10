@@ -178,6 +178,7 @@ form label {
 }
 
 input {
+    width: 400px;
     height: 50px;
     border-radius: 5px;
     border: 1px solid #E8E8E8 !important;
@@ -611,7 +612,7 @@ textarea {
 }
 
 .input-container {
-  width: 650px;
+  width: 405px;
   max-width: 100%;
   margin: 20px auto 25px auto;
 }
@@ -886,9 +887,7 @@ max-height:30px;
 .titulo-fac{
 margin-bottom: 30px;
 }
-.titulo-resposta{
 
-}
 .container-fac{
 margin-top: 80px;
 }
@@ -925,7 +924,31 @@ margin-top: 80px;
               font-size: 18px;
           }
 
+/* Style Suporte */
+.container-suporte{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
 
+.container-suporte-contato {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px 0 10px;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+}
+
+.styled-input  {
+  border: 2px solid #000;
+
+}
+
+/* Fim style Suporte */
 
 /* Style forbidden  */
 
