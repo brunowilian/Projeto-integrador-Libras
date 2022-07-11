@@ -89,10 +89,6 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
                     <input type="password" name="senha" id="senha" placeholder="*********">
                     
                     <div class="form-radio">
-                        <div class="radio-content">
-                            <input type="radio" id="lembrar-login">
-                            <label for="lembrar-login">Lembre de mim</label>
-                        </div>
                         <a href="#">Esqueceu sua senha?</a>
                     </div>
                     

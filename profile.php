@@ -53,15 +53,6 @@ if (!isset($_SESSION)) {
           <p>Email</p>
           <input class="input-profile" type="text" value="<?php echo $_SESSION['email']; ?>" />
         </div>
-        <div>
-          <p>Trocar Senha</p>
-          <input class="input-profile" type="text" />
-          <p>Data de nascimento</p>
-          <input class="input-profile" type="text" />
-        </div>
-      </section>
-      <section>
-        <button class="button-profile">Enviar</button>
       </section>
     </section>
   </main>
