@@ -1,15 +1,14 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curso Libras</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-  </head>
-  <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curso Libras</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<header>
   <div class="nav-header">
     <div>
       <nav>
@@ -25,11 +24,12 @@
     </nav>
   </div>
 </header>
-  <body>
-    <main>
 
-      <section class="container-curso">
-        <div class="titulo-curso">
+<body>
+  <main>
+
+    <section class="container-curso">
+      <div class="titulo-curso">
         <h1>
           Básico 1 - Introdução ao aprendizado da língua brasileira de sinais
         </h1>
@@ -45,7 +45,7 @@
               <p>• Saudações e Cumprimentos</p>
               <p>• Calendádio</p>
               <a href="/assets/playcursos/alfabeto.html">Inscrever-se</a>
-              
+
               <div class="container_infos">
                 <div class="postedBy">
                   <span class="curso-card-temp">Autor</span>
@@ -63,7 +63,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="card">
           <div class="box">
             <div class="content">
@@ -91,7 +91,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="card">
           <div class="box">
             <div class="content">
@@ -102,44 +102,46 @@
               <p>• Profissões</p>
               <p>• Reino Animal</p>
               <a href="#">Inscrever-se</a>
-              
+
               <div class="container_infos">
                 <div class="postedBy">
-                <span class="curso-card-temp">Autor</span>
-                John Doe
+                  <span class="curso-card-temp">Autor</span>
+                  John Doe
+                </div>
+                <div class="postedBy">
+                  <span class="curso-card-temp">Duração</span>
+                  50 horas
+                </div>
+                <div class="postedBy">
+                  <span class="curso-card-temp">Nivel</span>
+                  Iniciante
+                </div>
               </div>
-              <div class="postedBy">
-                <span class="curso-card-temp">Duração</span>
-                50 horas
-              </div>
-              <div class="postedBy">
-                <span class="curso-card-temp">Nivel</span>
-                Iniciante
-              </div>
+
             </div>
-            
           </div>
         </div>
-      </div>
     </section>
-    </main>
-    <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-      </div>
+  </main>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
     </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
-    
-    </body>
-    <footer>
-        Rodapé da página
-        <div>
-          <a href="./support.php">Suporte</a>
-        </div>
-    </footer>
-    </html>
-    
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+</body>
+<footer>
+  <span>
+    Curso Libras Copyright © 2022.
+  </span>
+  <div>
+    <a href="./support.php">Suporte</a>
+  </div>
+</footer>
+
+</html>

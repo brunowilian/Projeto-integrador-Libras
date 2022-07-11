@@ -57,9 +57,10 @@ footer {
   bottom: 0;
   color: #000;
   width: 100%;
-  height:50px;    
+  height:25px;    
   text-align: center;
   align-items: center;
+  background-color: white;
 }
 
 

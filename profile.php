@@ -68,9 +68,12 @@ if (!isset($_SESSION)) {
   </script>
 </body>
 <footer>
-        Rodapé da página
-        <div>
-          <a href="./support.php">Suporte</a>
-        </div>
-    </footer>
+  <span>
+    Curso Libras Copyright © 2022.
+  </span>
+  <div>
+    <a href="./support.php">Suporte</a>
+  </div>
+</footer>
+
 </html>
