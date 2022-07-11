@@ -131,5 +131,10 @@
         margin-bottom: 1.33rem;
     }
 </style>
-
+<footer>
+        Rodapé da página
+        <div>
+          <a href="./support.php">Suporte</a>
+        </div>
+    </footer>
 </html>

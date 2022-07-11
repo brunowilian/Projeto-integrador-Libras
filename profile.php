@@ -67,5 +67,10 @@ if (!isset($_SESSION)) {
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
 </body>
-
+<footer>
+        Rodapé da página
+        <div>
+          <a href="./support.php">Suporte</a>
+        </div>
+    </footer>
 </html>

@@ -56,4 +56,10 @@ include('backand\protect.php');
     </main>
 
 </body>
+<footer>
+        Rodapé da página
+        <div>
+          <a href="./support.php">Suporte</a>
+        </div>
+    </footer>
 </html>

@@ -85,5 +85,10 @@ if (!isset($_SESSION)) {
   </script>
 
 </body>
-
+<footer>
+        Rodapé da página
+        <div>
+          <a href="./support.php">Suporte</a>
+        </div>
+    </footer>
 </html>

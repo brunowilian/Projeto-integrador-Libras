@@ -61,6 +61,12 @@ include('backand\protect.php');
   </script>
     <script type="text/javascript" src="/assets/js/quiz.js"></script>
 </body>
+<footer>
+        Rodapé da página
+        <div>
+          <a href="./support.php">Suporte</a>
+        </div>
+    </footer>
 </html>
 
 
@@ -175,7 +181,5 @@ include('backand\protect.php');
     #result {
         font-weight: bold;
     }
-    
-
     
     </style> 
