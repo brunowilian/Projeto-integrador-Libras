@@ -44,7 +44,7 @@
               <p>• Numerais</p>
               <p>• Saudações e Cumprimentos</p>
               <p>• Calendádio</p>
-              <a href="/assets/playcursos/alfabeto.html">Inscrever-se</a>
+              <a href="/playcursos/alfabeto.html">Inscrever-se</a>
 
               <div class="container_infos">
                 <div class="postedBy">
