@@ -94,26 +94,8 @@
                         </div>
                     </div>
                     <img class="img-fac" src="assets\images\seta.png" alt="seta">
-                </section>
-                <section class="modulos" onclick="showHide('#modulo4')">
-                    <div class="primary-module">
-                        <p class="titulo-pergunta">..</p>
-                        <div class="descricao-modulo" id="modulo4">
-                            <p class="titulo-resposta"></p>
-                        </div>
-                    </div>
-                    <img class="img-fac" src="assets\images\seta.png" alt="seta">
-                </section>
-                <section class="modulos" onclick="showHide('#modulo5')">
-                    <div class="primary-module">
-                        <p class="titulo-pergunta">..</p>
-                        <div class="descricao-modulo" id="modulo5">
-                            <p class="titulo-resposta"></p>
-                        </div>
-                    </div>
-                    <img class="img-fac" src="assets\images\seta.png" alt="seta">
-                </section>
-            </section>
+                </section><br><br><br>
+
         </div>
     </main>
     <script>
